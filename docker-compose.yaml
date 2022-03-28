@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  db:
+    image: postgres:14
+    environment:
+      POSTGRES_DB: fts-ftw
+      POSTGRES_PASSWORD: fts-ftw
+      POSTGRES_USER: fts-ftw
+    ports:
+      - "4242:5432"

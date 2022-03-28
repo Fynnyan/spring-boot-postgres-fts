@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: fts-ftw
+    password: fts-ftw
+    url: jdbc:postgresql://localhost:4242/fts-ftw?currentSchema=fts-ftw
+  flyway:
+    user: ${spring.datasource.username}
+    password: ${spring.datasource.password}
+    url: ${spring.datasource.url}
+
