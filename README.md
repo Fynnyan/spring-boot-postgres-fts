@@ -1,6 +1,10 @@
 # spring-boot-postgres-fts
-demo project with spring boot, jooq and postgres full text search
+Demo project with spring boot, jooq and postgres full text search
 
+  
+UNDER CONSTRUCTION
+
+![UNDER CONSTRUCTION](https://media.giphy.com/media/ZTans30ONaaIM/giphy.gif)
 
 ## Setup
 
@@ -18,7 +22,7 @@ The spring app runs under the default localhost:8080
 and exposes the following endpoints:
 
 ```http request
-# treverst the CPV code tree 
+# travers the CPV code tree 
 
 ### get root nodes
 GET http://localhost:8080/api/cpv-codes
@@ -34,7 +38,3 @@ GET http://localhost:8080/api/cpv-codes/search?query=TXTX
 ### Use the FTS search over all language will use the postgres config for the given language
 GET http://localhost:8080/api/cpv-codes/search?query=TXTX&language=en
 ```
-  
-UNDER CONSTRUCTION$
-
-![UNDER CONSTRUCTION](https://media.giphy.com/media/ZTans30ONaaIM/giphy.gif)
