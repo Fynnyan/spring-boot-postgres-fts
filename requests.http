@@ -1,0 +1,14 @@
+# search over all language
+GET http://localhost:8080/api/cpv-codes/search?query=office
+
+### search in french
+GET http://localhost:8080/api/cpv-codes/search?query=office&language=fr
+
+### search in german
+GET http://localhost:8080/api/cpv-codes/search?query=office&language=de
+
+### tree traversal - root
+GET http://localhost:8080/api/cpv-codes
+
+### tree traversal - next lvl
+GET http://localhost:8080/api/cpv-codes?parent=76000000
