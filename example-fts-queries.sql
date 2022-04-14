@@ -1,3 +1,8 @@
+-- see the available default language configs
+select * from pg_ts_config;
+-- another example to get the one part of the available config, the defining text search dictionaries.
+select * from pg_ts_dict;
+
 
 -- what does to_tsvector do and why the language config is important
 select 'system_default' as config, to_tsvector('Sphinx of black quartz judge my vow')
