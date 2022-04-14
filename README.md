@@ -1,11 +1,6 @@
 # spring-boot-postgres-fts
 Demo project with spring boot, jooq and postgres full text search
 
-  
-UNDER CONSTRUCTION
-
-![UNDER CONSTRUCTION](https://media.giphy.com/media/ZTans30ONaaIM/giphy.gif)
-
 ## Setup
 
 - start the DB - ``docker compose up -d``
@@ -16,7 +11,9 @@ The DB is accessible under localhost:4242
 - PW: fts-ftw
 - DB & schema: fts-ftw
 
-The DB contains some example data, the European CPV codes in D/F/I/E.
+The DB contains some example data, the European CPV codes in D/F/I/E. 
+
+in the `example-fts-queries.sql` there are some examples that briefly show how the fts methods work and what they produce
 
 The spring app runs under the default localhost:8080
 and exposes the following endpoints:
